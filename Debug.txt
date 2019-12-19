@@ -1,0 +1,51 @@
+Debugging ArraySet.java
+Name: Daniel Rao
+Section: 02
+
+Bug #1:
+    -What's the name of failed test?
+testIsEmpty is the name of the failed test.
+
+    -Where (line number) did you place breakpoint(s)? 
+The break point was placed on Line 40
+
+    -Where (line number) was the bug was found?
+The bug was found on Line 40
+    -What did you do to fix it?
+Changed the logic on line 40 (rear > 0) to (rear == 0)
+
+
+
+Bug #2:
+    -What's the name of failed test?
+initializeSet is the name of the failed test.
+
+    -Where (line number) did you place breakpoint(s)? 
+Placed a breakpoint at line 59
+
+    -Where (line number) was the bug was found?
+Bug was found at line 59, after which the error showed up.
+
+    -What did you do to fix it?
+Added an extra line of code on line 60 which was rear = rear + 1 to add an extra element to the ArraySet.
+
+
+Bug #3:
+    -What's the name of failed test?
+initializeSet is the name of the failed test.
+
+    -Where (line number) did you place breakpoint(s)? 
+The breakpoint was set on line 65
+
+
+    -Where (line number) was the bug was found?
+The bug was found on line 74
+    -What did you do to fix it?
+Added -1 in while loop where -1 was added to the while loop parameter which was:
+while(I < rear - 1)
+
+
+ 
+
+
+
